@@ -6,7 +6,7 @@ if(isset($_POST['email'])) {
 
     // EDIT THE 2 LINES BELOW AS REQUIRED
 
-    $email_to = "peter_f_rao@gmail.com";
+    $email_to = "wanderingcloudstudio@gmail.com";
 
     $email_subject = "Message from your website!";
 
@@ -35,8 +35,6 @@ if(isset($_POST['email'])) {
     // validation expected data exists
 
     if(!isset($_POST['name']) ||
-
-        !isset($_POST['last_name']) ||
 
         !isset($_POST['email']) ||
 
